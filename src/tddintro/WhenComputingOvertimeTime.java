@@ -4,6 +4,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+/*
+ * Tests for the allowable overtime range. Above range tests are handled in WhenRaisingSupervisorReview.
+ */
 class WhenComputingOvertimeTime {
 
 	@Test

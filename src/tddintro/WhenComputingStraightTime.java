@@ -6,7 +6,9 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-
+/*
+ * Tests for all cases using standard/straight time (0-40). Includes boundary tests for hours and rate.
+ */
 class WhenComputingStraightTime {
 	
 	 HourlyWageComputer computer;
