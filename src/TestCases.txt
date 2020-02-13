@@ -1,0 +1,13 @@
+Test cases
+
+Hours		Rate		Expected
+0				10		0
+1				10		10
+40			10		400
+41			10		415   (40 * 10) + (1 * 10 * 1.5)
+60			10		700 (40 * 10) + (20 * 10 * 1.5)
+61			10		Flag for supervisor review (60 is max per biz rule)
+-1			10		Error. Do not process
+10			500		5000
+10			501		Flag for supervisor review (500 is max per biz rule)
+10			1			10
